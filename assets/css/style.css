@@ -1099,3 +1099,13 @@ section {
 }
 
 /* custom classes */
+
+.resume-custom-margin {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .resume-custom-margin {
+    margin-top: 0px;
+  }
+}
